@@ -1,0 +1,15 @@
+meme_dict = {
+    "CRINGE": "Algo excepcionalmente raro o embarazoso",
+    "LOL": "Una respuesta común a algo gracioso",
+    "OMG": "Expresión de sorpresa o asombro, equivalente a 'Oh My God'",
+    "XD": "Una cara que representa risa o diversión, usada en mensajes de texto",
+    "GG": "Abreviatura de 'Good Game', usada para reconocer que un juego estuvo bien jugado",
+    "CREEPY": "Algo que da miedo o causa inquietud",
+    "FUNA": "Acción de denunciar públicamente a alguien, generalmente en redes sociales"
+}
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in meme_dict.keys():
+    print("El significado de '{word}' es: {meme_dict[word]}")  # Imprime la definición de la palabra
+else:
+    print("La palabra no está en el diccionario.")
